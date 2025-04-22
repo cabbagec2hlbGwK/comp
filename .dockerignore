@@ -1,0 +1,27 @@
+# Ignore node_modules folders at any level
+**/node_modules
+
+# Ignore build outputs and caches
+**/.next
+**/.turbo
+**/dist
+**/build
+
+# Ignore Git directory
+.git
+
+# Ignore Docker specific files
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Ignore environment files (they are mounted or handled by compose)
+**/.env
+**/.env.*
+
+# Ignore VSCode settings
+.vscode
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
